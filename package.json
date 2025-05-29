@@ -4,6 +4,7 @@
   "description": "A jekyll website for photography",
   "main": "npmfile.js",
   "scripts": {
+    "build": "node scripts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,18 +20,17 @@
     "portfolio",
     "portfolio website"
   ],
-  "author": "Pushpinder Pal Singh",
+  "author": "Satyam",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/swiftlysingh/shots/issues"
   },
   "homepage": "https://github.com/swiftlysingh/shots#readme",
   "devDependencies": {
-    "del": "^2.2.2",
-    "gulp": "^4.0.2",
-    "gulp-image-resize": "^0.13.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^5.1.0",
-    "gulp-uglify": "^3.0.0"
-  }
+  "del": "^2.2.2",
+  "fs-extra": "^11.3.0",
+  "sass": "^1.89.0",
+  "sharp": "^0.34.2",
+  "terser": "^5.40.0"
+}
 }
