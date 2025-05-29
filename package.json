@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swiftlysingh/shots.git"
+    "url": "git+https://github.com/senku1505/satpics.git"
   },
   "keywords": [
     "photography",
@@ -23,9 +23,9 @@
   "author": "Satyam",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/swiftlysingh/shots/issues"
+    "url": "https://github.com/senku1505/satpics/issues"
   },
-  "homepage": "https://github.com/swiftlysingh/shots#readme",
+  "homepage": "https://github.com/senku1505/satpics#readme",
   "devDependencies": {
   "del": "^2.2.2",
   "fs-extra": "^11.3.0",
